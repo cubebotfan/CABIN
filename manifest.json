@@ -1,6 +1,16 @@
 {
    "author":"Pansmith",
    "files":[
+			{
+				"fileID":3748971,
+				"projectID":451553,
+				"required":true
+			},
+			{
+				"fileID":3644532,
+				"projectID":357304,
+				"required":true
+			},
       {
          "fileID":4019126,
          "projectID":233019,
