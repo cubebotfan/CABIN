@@ -1,10 +1,17 @@
 
 onEvent('recipes', event => {
 	event.remove({ input: '#forge:coins' })
+	
+	//remove coin casting
 	event.remove({ id:TC('smeltery/casting/metal/gold/coin_gold_cast') })
 	event.remove({ id:TC('smeltery/casting/metal/gold/coin_sand_cast') })
 	event.remove({ id:TC('smeltery/casting/metal/silver/coin_gold_cast') })
 	event.remove({ id:TC('smeltery/casting/metal/silver/coin_sand_cast') })
+
+	//Remove recipes for casts
+	event.remove({ id:TC('smeltery/casts/gold_casts/coins')})
+	event.remove({ id:TC('smeltery/casts/sand_casts/coins')})
+	event.remove({ id:TC('smeltery/casts/red_sand_casts/coins')})
 
 	event.recipes.thermal.numismatic_fuel(TE('silver_coin')).energy(100000)
 	event.recipes.thermal.numismatic_fuel(TE('gold_coin')).energy(6400000)

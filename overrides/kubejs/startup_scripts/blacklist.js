@@ -529,6 +529,9 @@ global.itemBlacklist = [
 	'waterstrainer:strainer_survivalist_reinforced',
 
 	//Tconstruct
+	'tconstruct:coin_cast',
+	'tconstruct:coin_sand_cast',
+	'tconstruct:coin_red_sand_cast',
 	'tconstruct:netherite_nugget',
 	'tconstruct:copper_nugget',
 	'tconstruct:molten_tin_bucket',
